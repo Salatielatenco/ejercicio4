@@ -1,5 +1,6 @@
 <?php 
     require_once  '../app/conexion.php'
+    require_once '../app/php_mailer/PHPMailerAutoload.php';
 
     $conexion=conexion();
 
